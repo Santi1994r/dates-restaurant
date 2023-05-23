@@ -5,6 +5,7 @@ function App() {
     <>
      <h1>Royal reataurant</h1>
      <button>boton</button>
+     <p>Desde la rama dev</p>
     </>
   )
 }
