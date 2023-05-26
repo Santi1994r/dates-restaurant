@@ -11,14 +11,14 @@ const Home = () => {
                 <button className=' p-2 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm bg-orange-600 hover:bg-orange-500 text-white fontDavid w-32'>Hace tu reserva</button>
             </div>
             <div>
-                <img src="./images/" alt="" />
-                <img src="./images/" alt="" />
-                <img src="./images/" alt="" />
+                <img src="./images/facebook-logo.svg" alt="" />
+                <img src="./images/insta-logo.svg" alt="" />
+                <img src="./images/tw-logo.svg" alt="" />
             </div>
         </div>
 
         <div className=' flex relative'>
-            <img className=' absolute bottom-0 -left-56 ri' src="./images/plato-home.svg" alt="" />
+            <img className=' absolute bottom-32 -left-56 ri' src="./images/plato-home.svg" alt="" />
             <img className=' w-auto h-5/6 rounded-tr-3xl rounded-bl-3xl rounded-br-3xl rounded-tl-3xl' src="./images/resto-home.svg" alt="" />
         </div>
     </main>
