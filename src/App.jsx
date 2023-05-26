@@ -1,4 +1,5 @@
 import './App.css'
+import Home from './components/Home/Home'
 import NavbarHome from './components/Navbar-Home/NavbarHome'
 import Navbar from './components/Navbar/Navbar'
 import Login from './components/Sections/Login/Login'
@@ -9,9 +10,9 @@ function App() {
     <>
     <NavbarHome/>
     <Navbar/>
+    <Home />
      <Login/>
     <SpecialSection/>
-     
     </>
   )
 }
