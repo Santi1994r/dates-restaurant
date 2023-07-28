@@ -1,3 +1,4 @@
+
 import './App.css'
 import ChefsSpecialties from './components/ChefsSpecialties/ChefsSpecialties'
 import Home from './components/Home/Home'
@@ -8,15 +9,16 @@ import Login from './components/Sections/Login/Login'
 import SpecialSection from './components/Sections/Specials/SpecialSection'
 
 function App() {
+
   return (
     <>
-    <NavbarHome/>
-    <Navbar/>
-    <Home />
-    <Login/>
-    <SpecialSection/>
-    <ChefsSpecialties />
-    <Newsletter />
+      <NavbarHome />
+      <Navbar />
+      <Home />
+      <Login />
+      <SpecialSection />
+      <ChefsSpecialties />
+      <Newsletter />
     </>
   )
 }
